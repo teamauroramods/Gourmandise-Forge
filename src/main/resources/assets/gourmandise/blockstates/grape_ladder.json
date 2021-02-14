@@ -1,0 +1,1 @@
+{"variants": {"facing=north": {"model": "gourmandise:block/grape_ladder"}, "facing=east": {"model": "gourmandise:block/grape_ladder", "y": 90}, "facing=south": {"model": "gourmandise:block/grape_ladder", "y": 180}, "facing=west": {"model": "gourmandise:block/grape_ladder", "y": 270}}}

@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shapeless", "ingredients": [{"item": "gourmandise:vertical_grape_planks"}], "result": {"item": "gourmandise:grape_planks"}, "conditions": [{"type": "abnormals_core:quark_flag", "flag": "vertical_planks"}]}

@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["#", "#", "#"], "key": {"#": {"item": "gourmandise:grape_planks"}}, "result": {"item": "gourmandise:vertical_grape_planks", "count": 3}, "conditions": [{"type": "abnormals_core:quark_flag", "flag": "vertical_planks"}]}

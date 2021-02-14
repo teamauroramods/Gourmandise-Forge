@@ -1,0 +1,1 @@
+{"type": "environmental:sawing", "ingredient": {"item": "gourmandise:grape_vertical_slab"}, "result": "gourmandise:grape_slab", "count": 1, "conditions": [{"type": "forge:mod_loaded", "modid": "environmental"}]}

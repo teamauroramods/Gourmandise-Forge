@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "group": "wooden_door", "pattern": ["##", "##", "##"], "key": {"#": {"item": "gourmandise:grape_planks"}}, "result": {"item": "gourmandise:grape_door", "count": 3}}

@@ -1,0 +1,1 @@
+{"parent": "block/orientable_with_bottom", "textures": {"particle": "gourmandise:block/grape_beehive_side", "bottom": "gourmandise:block/grape_beehive_end", "top": "gourmandise:block/grape_beehive_end", "front": "gourmandise:block/grape_beehive_front_honey", "side": "gourmandise:block/grape_beehive_side"}}

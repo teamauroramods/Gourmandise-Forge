@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "group": "bark", "pattern": ["##", "##"], "key": {"#": {"item": "gourmandise:grape_log"}}, "result": {"item": "gourmandise:grape_wood", "count": 3}}
