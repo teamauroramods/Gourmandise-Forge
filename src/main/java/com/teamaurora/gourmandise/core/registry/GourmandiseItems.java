@@ -17,6 +17,6 @@ public class GourmandiseItems {
     public static final RegistryObject<Item> GRAPES = HELPER.createItem("grapes", ()->new Item(new Item.Properties().food(Foods.GRAPES).group(ItemGroup.FOOD)));
 
     public static class Foods {
-        public static final Food GRAPES = (new Food.Builder()).hunger(2).saturation(0.2F).build();
+        public static final Food GRAPES = (new Food.Builder()).hunger(4).saturation(0.3F).build();
     }
 }

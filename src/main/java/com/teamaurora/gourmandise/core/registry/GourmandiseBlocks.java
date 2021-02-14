@@ -8,6 +8,8 @@ import com.minecraftabnormals.abnormals_core.common.blocks.sign.AbnormalsWallSig
 import com.minecraftabnormals.abnormals_core.common.blocks.wood.*;
 import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
 import com.mojang.datafixers.util.Pair;
+import com.teamaurora.gourmandise.common.block.BranchyGrapeLeavesBlock;
+import com.teamaurora.gourmandise.common.block.GrapesBlock;
 import com.teamaurora.gourmandise.core.Gourmandise;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
@@ -31,7 +33,7 @@ public class GourmandiseBlocks {
     public static final RegistryObject<Block> GRAPE_LOG= HELPER.createBlock("grape_log", ()->new AbnormalsLogBlock(STRIPPED_GRAPE_LOG, Block.Properties.from(Blocks.OAK_LOG)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> GRAPE_WOOD = HELPER.createBlock("grape_wood", ()->new WoodBlock(STRIPPED_GRAPE_WOOD, Block.Properties.from(Blocks.OAK_WOOD)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> GRAPE_LEAVES = HELPER.createBlock("grape_leaves", ()->new AbnormalsLeavesBlock(AbstractBlock.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F).tickRandomly().sound(SoundType.PLANT).notSolid().setAllowsSpawn((BlockState state, IBlockReader reader, BlockPos pos, EntityType<?> entity)->(entity == EntityType.OCELOT || entity == EntityType.PARROT)).setSuffocates((BlockState state, IBlockReader reader, BlockPos pos)->false).setBlocksVision((BlockState state, IBlockReader reader, BlockPos pos)->false)), ItemGroup.DECORATIONS);
-    public static final RegistryObject<Block> BRANCHY_GRAPE_LEAVES = HELPER.createBlock("branchy_grape_leaves", ()->new AbnormalsLeavesBlock(AbstractBlock.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F).tickRandomly().sound(SoundType.PLANT).notSolid().setAllowsSpawn((BlockState state, IBlockReader reader, BlockPos pos, EntityType<?> entity)->(entity == EntityType.OCELOT || entity == EntityType.PARROT)).setSuffocates((BlockState state, IBlockReader reader, BlockPos pos)->false).setBlocksVision((BlockState state, IBlockReader reader, BlockPos pos)->false)), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> BRANCHY_GRAPE_LEAVES = HELPER.createBlock("branchy_grape_leaves", ()->new BranchyGrapeLeavesBlock(AbstractBlock.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F).tickRandomly().sound(SoundType.PLANT).notSolid().setAllowsSpawn((BlockState state, IBlockReader reader, BlockPos pos, EntityType<?> entity)->(entity == EntityType.OCELOT || entity == EntityType.PARROT)).setSuffocates((BlockState state, IBlockReader reader, BlockPos pos)->false).setBlocksVision((BlockState state, IBlockReader reader, BlockPos pos)->false)), ItemGroup.DECORATIONS);
     public static final RegistryObject<Block> GRAPE_SAPLING = HELPER.createBlock("grape_sapling", ()->new AbnormalsSaplingBlock(new OakTree(), Block.Properties.from(Blocks.OAK_SAPLING)), ItemGroup.DECORATIONS);
     public static final RegistryObject<Block> POTTED_GRAPE_SAPLING = HELPER.createBlockNoItem("potted_grape_sapling", ()->new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT, GRAPE_SAPLING, Block.Properties.from(Blocks.POTTED_ALLIUM)));
     public static final RegistryObject<Block> GRAPE_PLANKS = HELPER.createBlock("grape_planks", ()->new PlanksBlock(Block.Properties.from(Blocks.OAK_PLANKS)), ItemGroup.BUILDING_BLOCKS);
@@ -54,5 +56,5 @@ public class GourmandiseBlocks {
 
     public static final RegistryObject<Block> GRAPE_BEEHIVE = HELPER.createCompatBlock("buzzier_bees", "grape_beehive", ()->new AbnormalsBeehiveBlock(Block.Properties.from(Blocks.BEEHIVE)), ItemGroup.DECORATIONS);
 
-
+    public static final RegistryObject<Block> GRAPES = HELPER.createBlockNoItem("grapes", ()->new GrapesBlock(AbstractBlock.Properties.create(Material.PLANTS).tickRandomly().sound(SoundType.PLANT)));
 }
