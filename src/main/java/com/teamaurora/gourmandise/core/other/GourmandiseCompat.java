@@ -7,6 +7,7 @@ import com.teamaurora.gourmandise.core.registry.GourmandiseItems;
 public class GourmandiseCompat {
     public static void registerCompostables() {
         DataUtil.registerCompostable(GourmandiseBlocks.GRAPE_LEAVES.get(), 0.3F);
+        DataUtil.registerCompostable(GourmandiseBlocks.BRANCHY_GRAPE_LEAVES.get(), 0.3F);
         DataUtil.registerCompostable(GourmandiseBlocks.GRAPE_SAPLING.get(), 0.3F);
         DataUtil.registerCompostable(GourmandiseBlocks.GRAPE_LEAF_CARPET.get(), 0.3F);
 
@@ -15,6 +16,7 @@ public class GourmandiseCompat {
 
     public static void registerFlammables() {
         DataUtil.registerFlammable(GourmandiseBlocks.GRAPE_LEAVES.get(), 30, 60);
+        DataUtil.registerFlammable(GourmandiseBlocks.BRANCHY_GRAPE_LEAVES.get(), 30, 60);
         DataUtil.registerFlammable(GourmandiseBlocks.GRAPE_LOG.get(), 5, 5);
         DataUtil.registerFlammable(GourmandiseBlocks.GRAPE_WOOD.get(), 5, 5);
         DataUtil.registerFlammable(GourmandiseBlocks.STRIPPED_GRAPE_LOG.get(), 5, 5);

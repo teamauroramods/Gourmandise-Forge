@@ -40,9 +40,9 @@ public class ClientRegister {
     // TODO: make this a better color
     public static void registerBlockColors() {
         BlockColors blockColors = Minecraft.getInstance().getBlockColors();
-        DataUtil.registerBlockColor(blockColors, (x, world, pos, u) -> world != null && pos != null ? BiomeColors.getFoliageColor(world, pos) : FoliageColors.getDefault(), Arrays.asList(GourmandiseBlocks.GRAPE_LEAVES, GourmandiseBlocks.GRAPE_LEAF_CARPET));
+        DataUtil.registerBlockColor(blockColors, (x, world, pos, u) -> world != null && pos != null ? BiomeColors.getFoliageColor(world, pos) : FoliageColors.getDefault(), Arrays.asList(GourmandiseBlocks.GRAPE_LEAVES, GourmandiseBlocks.GRAPE_LEAF_CARPET, GourmandiseBlocks.BRANCHY_GRAPE_LEAVES));
 
         ItemColors itemColors = Minecraft.getInstance().getItemColors();
-        DataUtil.registerBlockItemColor(itemColors, (color, items) -> FoliageColors.getDefault(), Arrays.asList(GourmandiseBlocks.GRAPE_LEAVES, GourmandiseBlocks.GRAPE_LEAF_CARPET));
+        DataUtil.registerBlockItemColor(itemColors, (color, items) -> FoliageColors.getDefault(), Arrays.asList(GourmandiseBlocks.GRAPE_LEAVES, GourmandiseBlocks.GRAPE_LEAF_CARPET, GourmandiseBlocks.BRANCHY_GRAPE_LEAVES));
     }
 }

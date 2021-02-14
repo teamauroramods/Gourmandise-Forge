@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "gourmandise:grape_leaves"
+    "gourmandise:grape_leaves",
+    "gourmandise:branchy_grape_leaves"
   ]
 }
