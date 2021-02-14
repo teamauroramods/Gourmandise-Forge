@@ -2,12 +2,15 @@ package com.teamaurora.gourmandise.core.other;
 
 import com.minecraftabnormals.abnormals_core.core.util.DataUtil;
 import com.teamaurora.gourmandise.core.registry.GourmandiseBlocks;
+import com.teamaurora.gourmandise.core.registry.GourmandiseItems;
 
 public class GourmandiseCompat {
     public static void registerCompostables() {
         DataUtil.registerCompostable(GourmandiseBlocks.GRAPE_LEAVES.get(), 0.3F);
         DataUtil.registerCompostable(GourmandiseBlocks.GRAPE_SAPLING.get(), 0.3F);
         DataUtil.registerCompostable(GourmandiseBlocks.GRAPE_LEAF_CARPET.get(), 0.3F);
+
+        DataUtil.registerCompostable(GourmandiseItems.GRAPES.get(), 0.65F);
     }
 
     public static void registerFlammables() {
