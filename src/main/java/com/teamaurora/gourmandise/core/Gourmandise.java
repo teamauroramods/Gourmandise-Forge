@@ -1,6 +1,7 @@
 package com.teamaurora.gourmandise.core;
 
 import com.minecraftabnormals.abnormals_core.core.util.registry.RegistryHelper;
+import com.teamaurora.gourmandise.core.other.GourmandiseCompat;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -24,7 +25,8 @@ public class Gourmandise
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
-
+            GourmandiseCompat.registerFlammables();
+            GourmandiseCompat.registerCompostables();
         });
     }
 }

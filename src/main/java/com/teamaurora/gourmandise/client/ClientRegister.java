@@ -12,7 +12,11 @@ public class ClientRegister {
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
-
+            setupRenderLayer();
         });
+    }
+
+    public static void setupRenderLayer() {
+
     }
 }
