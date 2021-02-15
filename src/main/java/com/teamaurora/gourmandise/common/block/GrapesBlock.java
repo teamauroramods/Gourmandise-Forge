@@ -24,11 +24,11 @@ import java.util.Random;
 
 public class GrapesBlock extends Block implements IGrowable {
     public static final IntegerProperty AGE = BlockStateProperties.AGE_0_3;
-    protected static final VoxelShape SHAPE_0 = Block.makeCuboidShape(3.0D, 10.0D, 3.0D, 13.0D, 16.0D, 13.0D);
-    protected static final VoxelShape SHAPE_1 = Block.makeCuboidShape(3.0D, 4.0D, 3.0D, 13.0D, 16.0D, 13.0D);
-    protected static final VoxelShape SHAPE_2 = Block.makeCuboidShape(3.0D, 1.0D, 3.0D, 13.0D, 16.0D, 13.0D);
+    protected static final VoxelShape SHAPE_0 = Block.makeCuboidShape(4.0D, 10.0D, 4.0D, 12.0D, 16.0D, 12.0D);
+    protected static final VoxelShape SHAPE_1 = Block.makeCuboidShape(4.0D, 4.0D, 4.0D, 12.0D, 16.0D, 12.0D);
+    protected static final VoxelShape SHAPE_2 = Block.makeCuboidShape(4.0D, 1.0D, 4.0D, 12.0D, 16.0D, 12.0D);
     protected static final VoxelShape SHAPE_3_GRAPE = Block.makeCuboidShape(2.0D, 0.0D, 2.0D, 14.0D, 12.0D, 14.0D);
-    protected static final VoxelShape SHAPE_3_VINE = Block.makeCuboidShape(3.0D, 12.0D, 3.0D, 13.0D, 16.0D, 13.0D);
+    protected static final VoxelShape SHAPE_3_VINE = Block.makeCuboidShape(4.0D, 12.0D, 4.0D, 12.0D, 16.0D, 12.0D);
     protected static final VoxelShape SHAPE_3 = VoxelShapes.or(SHAPE_3_GRAPE, SHAPE_3_VINE);
     protected static final List<VoxelShape> SHAPES = Arrays.asList(SHAPE_0, SHAPE_1, SHAPE_2, SHAPE_3);
 

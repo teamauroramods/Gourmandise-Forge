@@ -56,5 +56,5 @@ public class GourmandiseBlocks {
 
     public static final RegistryObject<Block> GRAPE_BEEHIVE = HELPER.createCompatBlock("buzzier_bees", "grape_beehive", ()->new AbnormalsBeehiveBlock(Block.Properties.from(Blocks.BEEHIVE)), ItemGroup.DECORATIONS);
 
-    public static final RegistryObject<Block> GRAPES = HELPER.createBlockNoItem("grapes", ()->new GrapesBlock(AbstractBlock.Properties.create(Material.PLANTS).tickRandomly().sound(SoundType.PLANT)));
+    public static final RegistryObject<Block> GRAPES = HELPER.createBlockNoItem("grapes", ()->new GrapesBlock(AbstractBlock.Properties.create(Material.PLANTS).tickRandomly().sound(SoundType.CROP)));
 }
