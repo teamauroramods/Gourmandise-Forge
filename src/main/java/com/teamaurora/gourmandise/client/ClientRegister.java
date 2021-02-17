@@ -19,11 +19,9 @@ import java.util.Arrays;
 
 @Mod.EventBusSubscriber(modid = Gourmandise.MODID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ClientRegister {
-    // one day this will do something
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
-            registerBlockColors();
             setupRenderLayer();
         });
     }
@@ -37,14 +35,5 @@ public class ClientRegister {
         RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPE_TRAPDOOR.get(), RenderType.getCutout());
 
         RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPES.get(), RenderType.getCutout());
-    }
-
-    // TODO: make this a better color
-    public static void registerBlockColors() {
-        BlockColors blockColors = Minecraft.getInstance().getBlockColors();
-        DataUtil.registerBlockColor(blockColors, (x, world, pos, u) -> world != null && pos != null ? BiomeColors.getFoliageColor(world, pos) : FoliageColors.getDefault(), Arrays.asList(GourmandiseBlocks.GRAPE_LEAVES, GourmandiseBlocks.GRAPE_LEAF_CARPET, GourmandiseBlocks.BRANCHY_GRAPE_LEAVES));
-
-        ItemColors itemColors = Minecraft.getInstance().getItemColors();
-        DataUtil.registerBlockItemColor(itemColors, (color, items) -> FoliageColors.getDefault(), Arrays.asList(GourmandiseBlocks.GRAPE_LEAVES, GourmandiseBlocks.GRAPE_LEAF_CARPET, GourmandiseBlocks.BRANCHY_GRAPE_LEAVES));
     }
 }
