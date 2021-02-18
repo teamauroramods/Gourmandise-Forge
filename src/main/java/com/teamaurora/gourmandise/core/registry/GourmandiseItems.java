@@ -2,9 +2,11 @@ package com.teamaurora.gourmandise.core.registry;
 
 import com.minecraftabnormals.abnormals_core.core.util.registry.ItemSubRegistryHelper;
 import com.teamaurora.gourmandise.core.Gourmandise;
+import com.teamaurora.gourmandise.common.item.DrinkItem;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Items;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 
@@ -15,8 +17,10 @@ public class GourmandiseItems {
     public static final RegistryObject<Item> GRAPE_BOAT = HELPER.createBoatItem("grape", GourmandiseBlocks.GRAPE_PLANKS);
 
     public static final RegistryObject<Item> GRAPES = HELPER.createItem("grapes", ()->new Item(new Item.Properties().food(Foods.GRAPES).group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> GRAPE_JUICE = HELPER.createItem("grape_juice", ()->new DrinkItem(new Item.Properties().containerItem(Items.GLASS_BOTTLE).food(Foods.GRAPE_JUICE).maxStackSize(16).group(ItemGroup.FOOD)));
 
     public static class Foods {
         public static final Food GRAPES = (new Food.Builder()).hunger(4).saturation(0.3F).build();
+        public static final Food GRAPE_JUICE = (new Food.Builder()).hunger(2).saturation(0.1F).build();
     }
 }
