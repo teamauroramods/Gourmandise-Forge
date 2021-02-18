@@ -9,6 +9,8 @@ import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.foliageplacer.BlobFoliagePlacer;
+import net.minecraft.world.gen.placement.ChanceConfig;
+import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.trunkplacer.StraightTrunkPlacer;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
@@ -43,6 +45,8 @@ public class GourmandiseFeatures {
         public static final ConfiguredFeature<BaseTreeFeatureConfig, ?> WILD_GRAPE = GourmandiseFeatures.WILD_GRAPE_TREE.get().withConfiguration(Configs.GRAPE_TREE_CONFIG);
         public static final ConfiguredFeature<BaseTreeFeatureConfig, ?> LARGE_WILD_GRAPE = GourmandiseFeatures.LARGE_WILD_GRAPE_TREE.get().withConfiguration(Configs.GRAPE_TREE_CONFIG);
 
+        public static final ConfiguredFeature<?, ?> TREES_GRAPE = Feature.RANDOM_BOOLEAN_SELECTOR.withConfiguration(new TwoFeatureChoiceConfig(()->WILD_GRAPE, ()->LARGE_WILD_GRAPE)).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).withPlacement(Placement.CHANCE.configure(new ChanceConfig(12)));
+
         private static <FC extends IFeatureConfig> void register(String name, ConfiguredFeature<FC, ?> configuredFeature) {
             Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation(Gourmandise.MODID, name), configuredFeature);
         }
@@ -51,6 +55,8 @@ public class GourmandiseFeatures {
             register("grape", GRAPE);
             register("wild_grape", WILD_GRAPE);
             register("large_wild_grape", LARGE_WILD_GRAPE);
+
+            register("trees_grape", TREES_GRAPE);
         }
     }
 }
