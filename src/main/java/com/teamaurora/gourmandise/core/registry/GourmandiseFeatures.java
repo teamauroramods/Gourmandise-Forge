@@ -1,5 +1,6 @@
 package com.teamaurora.gourmandise.core.registry;
 
+import com.google.common.collect.ImmutableList;
 import com.teamaurora.gourmandise.common.world.gen.feature.GrapeFeature;
 import com.teamaurora.gourmandise.core.Gourmandise;
 import net.minecraft.block.BlockState;
@@ -45,7 +46,7 @@ public class GourmandiseFeatures {
         public static final ConfiguredFeature<BaseTreeFeatureConfig, ?> WILD_GRAPE = GourmandiseFeatures.WILD_GRAPE_TREE.get().withConfiguration(Configs.GRAPE_TREE_CONFIG);
         public static final ConfiguredFeature<BaseTreeFeatureConfig, ?> LARGE_WILD_GRAPE = GourmandiseFeatures.LARGE_WILD_GRAPE_TREE.get().withConfiguration(Configs.GRAPE_TREE_CONFIG);
 
-        public static final ConfiguredFeature<?, ?> TREES_GRAPE = Feature.RANDOM_BOOLEAN_SELECTOR.withConfiguration(new TwoFeatureChoiceConfig(()->WILD_GRAPE, ()->LARGE_WILD_GRAPE)).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).withPlacement(Placement.CHANCE.configure(new ChanceConfig(12)));
+        public static final ConfiguredFeature<?, ?> TREES_GRAPE = Feature.RANDOM_SELECTOR.withConfiguration(new MultipleRandomFeatureConfig(ImmutableList.of(WILD_GRAPE.withChance(0.5F)),LARGE_WILD_GRAPE)).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).withPlacement(Placement.CHANCE.configure(new ChanceConfig(12)));
 
         private static <FC extends IFeatureConfig> void register(String name, ConfiguredFeature<FC, ?> configuredFeature) {
             Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation(Gourmandise.MODID, name), configuredFeature);
