@@ -1,10 +1,10 @@
 {
   "ambientocclusion": false,
   "textures": {
-    "particle": "gourmandise:block/grapes_3_side",
-    "side": "gourmandise:block/grapes_3_side",
-    "top": "gourmandise:block/grapes_3_top",
-    "vine": "gourmandise:block/grapes_3_vine"
+    "particle": "gourmandise:block/grape_vine_3_side",
+    "side": "gourmandise:block/grape_vine_3_side",
+    "top": "gourmandise:block/grape_vine_3_top",
+    "vine": "gourmandise:block/grape_vine_3_vine"
   },
   "elements": [
     {   "from": [ 2, 0, 2 ],

@@ -34,6 +34,6 @@ public class ClientRegister {
         RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPE_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPE_TRAPDOOR.get(), RenderType.getCutout());
 
-        RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPES.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPE_VINE.get(), RenderType.getCutout());
     }
 }

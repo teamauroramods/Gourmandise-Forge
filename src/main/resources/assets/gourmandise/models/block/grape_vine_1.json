@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "gourmandise:block/grapes_2"
+    "cross": "gourmandise:block/grape_vine_1"
   }
 }
