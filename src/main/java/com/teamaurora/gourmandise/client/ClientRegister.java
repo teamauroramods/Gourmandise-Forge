@@ -22,6 +22,7 @@ public class ClientRegister {
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
+            registerBlockColors();
             setupRenderLayer();
         });
     }
@@ -35,5 +36,21 @@ public class ClientRegister {
         RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPE_TRAPDOOR.get(), RenderType.getCutout());
 
         RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPE_VINE.get(), RenderType.getCutout());
+    }
+
+    public static void registerBlockColors() {
+        BlockColors blockColors = Minecraft.getInstance().getBlockColors();
+        DataUtil.registerBlockColor(blockColors, (x, world, pos, u) -> 0xFFEA35, Arrays.asList(
+                GourmandiseBlocks.GRAPE_LEAVES,
+                GourmandiseBlocks.BRANCHY_GRAPE_LEAVES,
+                GourmandiseBlocks.GRAPE_LEAF_CARPET
+        ));
+
+        ItemColors itemColors = Minecraft.getInstance().getItemColors();
+        DataUtil.registerBlockItemColor(itemColors, (color, items) -> 0xFFEA35, Arrays.asList(
+                GourmandiseBlocks.GRAPE_LEAVES,
+                GourmandiseBlocks.BRANCHY_GRAPE_LEAVES,
+                GourmandiseBlocks.GRAPE_LEAF_CARPET
+        ));
     }
 }
