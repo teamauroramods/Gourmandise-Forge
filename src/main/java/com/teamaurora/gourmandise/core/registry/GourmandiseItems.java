@@ -21,6 +21,11 @@ public class GourmandiseItems {
     public static final RegistryObject<Item> CHEESE_SAUCE = HELPER.createItem("cheese_sauce", ()->new SoupItem(new Item.Properties().food(Foods.CHEESE_SAUCE).containerItem(Items.BOWL).maxStackSize(1).group(ItemGroup.FOOD)));
     public static final RegistryObject<Item> CHEESE_BREAD = HELPER.createItem("cheese_bread", ()->new Item(new Item.Properties().food(Foods.CHEESE_BREAD).group(ItemGroup.FOOD)));
 
+    public static final RegistryObject<Item> SAUSAGE = HELPER.createItem("sausage", ()->new Item(new Item.Properties().food(Foods.SAUSAGE).group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> COOKED_SAUSAGE = HELPER.createItem("cooked_sausage", ()->new Item(new Item.Properties().food(Foods.COOKED_SAUSAGE).group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> SHRIMP = HELPER.createItem("shrimp", ()->new Item(new Item.Properties().food(Foods.SHRIMP).group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> COOKED_SHRIMP = HELPER.createItem("cooked_shrimp", ()->new Item(new Item.Properties().food(Foods.COOKED_SHRIMP).group(ItemGroup.FOOD)));
+
     public static class Foods {
         public static final Food GRAPES = (new Food.Builder()).hunger(4).saturation(0.3F).build();
         public static final Food GRAPE_JUICE = (new Food.Builder()).hunger(2).saturation(0.1F).build();
@@ -28,5 +33,10 @@ public class GourmandiseItems {
         public static final Food CHEESE = (new Food.Builder()).hunger(2).saturation(0.15F).build();
         public static final Food CHEESE_SAUCE = (new Food.Builder()).hunger(3).saturation(0.2F).build();
         public static final Food CHEESE_BREAD = (new Food.Builder()).hunger(7).saturation(0.7F).build();
+
+        public static final Food SAUSAGE = (new Food.Builder()).hunger(2).saturation(0.1F).meat().build();
+        public static final Food COOKED_SAUSAGE = (new Food.Builder()).hunger(5).saturation(0.3F).meat().build();
+        public static final Food SHRIMP = (new Food.Builder()).hunger(2).saturation(0.1F).build();
+        public static final Food COOKED_SHRIMP = (new Food.Builder()).hunger(4).saturation(0.2F).build();
     }
 }

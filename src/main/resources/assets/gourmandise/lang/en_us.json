@@ -46,5 +46,15 @@
   "block.gourmandise.chiseled_cheese_bricks": "Chiseled Cheese Bricks",
 
   "item.gourmandise.cheese_sauce": "Cheese Sauce",
-  "item.gourmandise.cheese_bread": "Cheese Bread"
+  "item.gourmandise.cheese_bread": "Cheese Bread",
+
+
+  "_comment2": "Sausage",
+  "item.gourmandise.sausage": "Raw Sausage",
+  "item.gourmandise.cooked_sausage": "Cooked Sausage",
+
+
+  "_comment3": "Shrimp",
+  "item.gourmandise.shrimp": "Raw Shrimp",
+  "item.gourmandise.cooked_shrimp": "Cooked Shrimp"
 }

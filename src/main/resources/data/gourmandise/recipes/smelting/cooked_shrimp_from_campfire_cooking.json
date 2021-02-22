@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "gourmandise:shrimp"
+  },
+  "result": "gourmandise:cooked_shrimp",
+  "experience": 0.35,
+  "cookingtime": 200
+}
