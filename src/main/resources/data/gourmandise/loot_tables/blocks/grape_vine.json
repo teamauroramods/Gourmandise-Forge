@@ -39,7 +39,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "gourmandise:grapes",
+              "name": "gourmandise:grape_bunch",
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
@@ -50,16 +50,6 @@
                 },
                 {
                   "condition": "minecraft:survives_explosion"
-                }
-              ],
-              "functions": [
-                {
-                  "function": "minecraft:set_count",
-                  "count": {
-                    "min": 1.0,
-                    "max": 2.0,
-                    "type": "minecraft:uniform"
-                  }
                 }
               ]
             }
