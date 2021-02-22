@@ -58,4 +58,17 @@ public class GourmandiseBlocks {
     public static final RegistryObject<Block> GRAPE_BEEHIVE = HELPER.createCompatBlock("buzzier_bees", "grape_beehive", ()->new AbnormalsBeehiveBlock(Block.Properties.from(Blocks.BEEHIVE)), ItemGroup.DECORATIONS);
 
     public static final RegistryObject<Block> GRAPE_VINE = HELPER.createBlock("grape_vine", ()->new GrapesBlock(AbstractBlock.Properties.create(Material.PLANTS).tickRandomly().sound(SoundType.CROP)), ItemGroup.DECORATIONS);
+
+    // cheese
+    public static final RegistryObject<Block> CHEESE_BLOCK = HELPER.createBlock("cheese_block", ()->new Block(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_BRICKS = HELPER.createBlock("cheese_bricks", ()->new Block(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_BRICK_SLAB = HELPER.createBlock("cheese_brick_slab", ()->new SlabBlock(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_BRICK_STAIRS = HELPER.createBlock("cheese_brick_stairs", ()->new AbnormalsStairsBlock(CHEESE_BRICKS.get().getDefaultState(), Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_BRICK_WALL = HELPER.createBlock("cheese_brick_wall", ()->new WallBlock(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_BRICK_VERTICAL_SLAB = HELPER.createCompatBlock("quark","cheese_brick_vertical_slab", ()->new VerticalSlabBlock(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHISELED_CHEESE_BRICKS = HELPER.createBlock("chiseled_cheese_bricks", ()->new Block(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
+
+    static class Properties {
+        public static final AbstractBlock.Properties CHEESE_BRICKS = AbstractBlock.Properties.create(Material.WOOD, MaterialColor.YELLOW).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD);
+    }
 }

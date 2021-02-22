@@ -37,6 +37,14 @@
 
   "_comment1": "Cheese",
   "item.gourmandise.cheese": "Cheese",
+  "block.gourmandise.cheese_block": "Cheese Block",
+  "block.gourmandise.cheese_bricks": "Cheese Bricks",
+  "block.gourmandise.cheese_brick_slab": "Cheese Brick Slab",
+  "block.gourmandise.cheese_brick_stairs": "Cheese Brick Stairs",
+  "block.gourmandise.cheese_brick_vertical_slab": "Cheese Brick Vertical Slab",
+  "block.gourmandise.cheese_brick_wall": "Cheese Brick Wall",
+  "block.gourmandise.chiseled_cheese_bricks": "Chiseled Cheese Bricks",
+
   "item.gourmandise.cheese_sauce": "Cheese Sauce",
   "item.gourmandise.cheese_bread": "Cheese Bread"
 }

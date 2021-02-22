@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "gourmandise:block/cheese_bricks",
+    "top": "gourmandise:block/cheese_bricks",
+    "side": "gourmandise:block/cheese_bricks"
+  }
+}
