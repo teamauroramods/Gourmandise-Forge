@@ -23,10 +23,17 @@ public class GourmandiseItems {
 
     public static final RegistryObject<Item> SAUSAGE = HELPER.createItem("sausage", ()->new Item(new Item.Properties().food(Foods.SAUSAGE).group(ItemGroup.FOOD)));
     public static final RegistryObject<Item> COOKED_SAUSAGE = HELPER.createItem("cooked_sausage", ()->new Item(new Item.Properties().food(Foods.COOKED_SAUSAGE).group(ItemGroup.FOOD)));
+
     public static final RegistryObject<Item> SHRIMP = HELPER.createItem("shrimp", ()->new Item(new Item.Properties().food(Foods.SHRIMP).group(ItemGroup.FOOD)));
     public static final RegistryObject<Item> COOKED_SHRIMP = HELPER.createItem("cooked_shrimp", ()->new Item(new Item.Properties().food(Foods.COOKED_SHRIMP).group(ItemGroup.FOOD)));
 
+    public static final RegistryObject<Item> SHRIMP_ON_A_STICK = HELPER.createItem("shrimp_on_a_stick", ()->new Item(new Item.Properties().food(Foods.SHRIMP_ON_A_STICK).group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> CHEESE_SAUSAGE = HELPER.createItem("cheese_sausage", ()->new Item(new Item.Properties().food(Foods.CHEESE_SAUSAGE).group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> FRUIT_SALAD = HELPER.createItem("fruit_salad", ()->new SoupItem(new Item.Properties().food(Foods.FRUIT_SALAD).maxStackSize(1).containerItem(Items.BOWL).group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> POTATO_CHIP = HELPER.createItem("potato_chip", ()->new Item(new Item.Properties().food(Foods.POTATO_CHIP).group(ItemGroup.FOOD)));
+
     public static class Foods {
+        // mostly temp values until all recipes are in
         public static final Food GRAPES = (new Food.Builder()).hunger(4).saturation(0.3F).build();
         public static final Food GRAPE_JUICE = (new Food.Builder()).hunger(2).saturation(0.1F).build();
 
@@ -36,7 +43,14 @@ public class GourmandiseItems {
 
         public static final Food SAUSAGE = (new Food.Builder()).hunger(2).saturation(0.1F).meat().build();
         public static final Food COOKED_SAUSAGE = (new Food.Builder()).hunger(5).saturation(0.3F).meat().build();
+
         public static final Food SHRIMP = (new Food.Builder()).hunger(2).saturation(0.1F).build();
         public static final Food COOKED_SHRIMP = (new Food.Builder()).hunger(4).saturation(0.2F).build();
+
+        // these ones are *especially* temporary
+        public static final Food SHRIMP_ON_A_STICK = (new Food.Builder()).hunger(6).saturation(0.4F).build();
+        public static final Food CHEESE_SAUSAGE = (new Food.Builder()).hunger(6).saturation(0.4F).build();
+        public static final Food FRUIT_SALAD = (new Food.Builder()).hunger(6).saturation(0.4F).build();
+        public static final Food POTATO_CHIP = (new Food.Builder()).hunger(6).saturation(0.4F).build();
     }
 }

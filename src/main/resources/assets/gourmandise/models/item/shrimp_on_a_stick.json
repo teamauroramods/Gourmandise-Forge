@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gourmandise:item/shrimp_on_a_stick"
+  }
+}

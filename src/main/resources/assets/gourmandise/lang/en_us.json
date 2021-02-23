@@ -56,5 +56,11 @@
 
   "_comment3": "Shrimp",
   "item.gourmandise.shrimp": "Raw Shrimp",
-  "item.gourmandise.cooked_shrimp": "Cooked Shrimp"
+  "item.gourmandise.cooked_shrimp": "Cooked Shrimp",
+
+  "_comment4": "Combo Meals",
+  "item.gourmandise.shrimp_on_a_stick": "Shrimp on a Stick",
+  "item.gourmandise.cheese_sausage": "Cheese Sausage",
+  "item.gourmandise.fruit_salad": "Fruit Salad",
+  "item.gourmandise.potato_chip": "Potato Chip"
 }
