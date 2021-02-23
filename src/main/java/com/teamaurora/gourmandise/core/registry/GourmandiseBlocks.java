@@ -71,6 +71,11 @@ public class GourmandiseBlocks {
     // golden wheat
     public static final RegistryObject<Block> GOLDEN_HAY_BLOCK = HELPER.createBlock("golden_hay_block", ()->new HayBlock(AbstractBlock.Properties.from(Blocks.HAY_BLOCK).harvestTool(ToolType.HOE)), ItemGroup.BUILDING_BLOCKS);
 
+    // pineapple (latter two need better block properties in the future)
+    public static final RegistryObject<Block> PINEAPPLE_LEAVES_BLOCK = HELPER.createBlock("pineapple_leaves_block", ()->new Block(AbstractBlock.Properties.from(Blocks.DRIED_KELP_BLOCK)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> PINEAPPLE_BLOCK = HELPER.createBlock("pineapple_block", ()->new Block(AbstractBlock.Properties.from(Blocks.DRIED_KELP_BLOCK)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> PINEAPPLE_TILES = HELPER.createBlock("pineapple_tiles", ()->new Block(AbstractBlock.Properties.from(Blocks.DRIED_KELP_BLOCK)), ItemGroup.BUILDING_BLOCKS);
+
     static class Properties {
         public static final AbstractBlock.Properties CHEESE_BRICKS = AbstractBlock.Properties.create(Material.WOOD, MaterialColor.YELLOW).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD);
     }
