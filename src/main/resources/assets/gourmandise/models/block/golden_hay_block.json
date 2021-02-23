@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "gourmandise:block/golden_hay_block_top",
+    "side": "gourmandise:block/golden_hay_block_side"
+  }
+}

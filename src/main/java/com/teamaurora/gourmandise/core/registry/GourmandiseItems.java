@@ -32,6 +32,9 @@ public class GourmandiseItems {
     public static final RegistryObject<Item> FRUIT_SALAD = HELPER.createItem("fruit_salad", ()->new SoupItem(new Item.Properties().food(Foods.FRUIT_SALAD).maxStackSize(1).containerItem(Items.BOWL).group(ItemGroup.FOOD)));
     public static final RegistryObject<Item> POTATO_CHIP = HELPER.createItem("potato_chip", ()->new Item(new Item.Properties().food(Foods.POTATO_CHIP).group(ItemGroup.FOOD)));
 
+    public static final RegistryObject<Item> GOLDEN_WHEAT = HELPER.createItem("golden_wheat", ()->new Item(new Item.Properties().group(ItemGroup.MISC)));
+    public static final RegistryObject<Item> GOLDEN_BREAD = HELPER.createItem("golden_bread", ()->new Item(new Item.Properties().food(Foods.GOLDEN_BREAD).group(ItemGroup.FOOD)));
+
     public static class Foods {
         // mostly temp values until all recipes are in
         public static final Food GRAPES = (new Food.Builder()).hunger(4).saturation(0.3F).build();
@@ -52,5 +55,7 @@ public class GourmandiseItems {
         public static final Food CHEESE_SAUSAGE = (new Food.Builder()).hunger(6).saturation(0.4F).build();
         public static final Food FRUIT_SALAD = (new Food.Builder()).hunger(6).saturation(0.4F).build();
         public static final Food POTATO_CHIP = (new Food.Builder()).hunger(6).saturation(0.4F).build();
+
+        public static final Food GOLDEN_BREAD = (new Food.Builder()).hunger(8).saturation(1.2F).build();
     }
 }

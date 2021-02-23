@@ -68,6 +68,9 @@ public class GourmandiseBlocks {
     public static final RegistryObject<Block> CHEESE_BRICK_VERTICAL_SLAB = HELPER.createCompatBlock("quark","cheese_brick_vertical_slab", ()->new VerticalSlabBlock(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> CHISELED_CHEESE_BRICKS = HELPER.createBlock("chiseled_cheese_bricks", ()->new Block(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
 
+    // golden wheat
+    public static final RegistryObject<Block> GOLDEN_HAY_BLOCK = HELPER.createBlock("golden_hay_block", ()->new HayBlock(AbstractBlock.Properties.from(Blocks.HAY_BLOCK).harvestTool(ToolType.HOE)), ItemGroup.BUILDING_BLOCKS);
+
     static class Properties {
         public static final AbstractBlock.Properties CHEESE_BRICKS = AbstractBlock.Properties.create(Material.WOOD, MaterialColor.YELLOW).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD);
     }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gourmandise:golden_hay_block"
+    }
+  ],
+  "result": {
+    "item": "gourmandise:golden_wheat",
+    "count": 9
+  }
+}

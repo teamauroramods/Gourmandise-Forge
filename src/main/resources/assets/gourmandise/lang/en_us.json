@@ -62,5 +62,10 @@
   "item.gourmandise.shrimp_on_a_stick": "Shrimp on a Stick",
   "item.gourmandise.cheese_sausage": "Cheese Sausage",
   "item.gourmandise.fruit_salad": "Fruit Salad",
-  "item.gourmandise.potato_chip": "Potato Chip"
+  "item.gourmandise.potato_chip": "Potato Chip",
+
+  "_comment5": "Golden Wheat",
+  "item.gourmandise.golden_wheat": "Golden Wheat",
+  "item.gourmandise.golden_bread": "Golden Bread",
+  "block.gourmandise.golden_hay_block": "Golden Hay Bale"
 }
