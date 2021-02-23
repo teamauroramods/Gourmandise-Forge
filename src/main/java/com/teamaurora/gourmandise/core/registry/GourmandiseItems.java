@@ -21,6 +21,11 @@ public class GourmandiseItems {
     public static final RegistryObject<Item> CHEESE_SAUCE = HELPER.createItem("cheese_sauce", ()->new SoupItem(new Item.Properties().food(Foods.CHEESE_SAUCE).containerItem(Items.BOWL).maxStackSize(1).group(ItemGroup.FOOD)));
     public static final RegistryObject<Item> CHEESE_BREAD = HELPER.createItem("cheese_bread", ()->new Item(new Item.Properties().food(Foods.CHEESE_BREAD).group(ItemGroup.FOOD)));
 
+    public static final RegistryObject<Item> PINEAPPLE_LEAVES = HELPER.createItem("pineapple_leaves", ()->new Item(new Item.Properties().group(ItemGroup.MISC)));
+    public static final RegistryObject<Item> PINEAPPLE = HELPER.createItem("pineapple", ()->new Item(new Item.Properties().group(ItemGroup.MISC)));
+    public static final RegistryObject<Item> PINEAPPLE_SLICES = HELPER.createItem("pineapple_slices", ()->new Item(new Item.Properties().food(Foods.PINEAPPLE_SLICES).group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> PINEAPPLE_PUNCH = HELPER.createItem("pineapple_punch", ()->new DrinkItem(new Item.Properties().containerItem(Items.GLASS_BOTTLE).food(Foods.PINEAPPLE_PUNCH).maxStackSize(16).group(ItemGroup.FOOD)));
+
     public static final RegistryObject<Item> SAUSAGE = HELPER.createItem("sausage", ()->new Item(new Item.Properties().food(Foods.SAUSAGE).group(ItemGroup.FOOD)));
     public static final RegistryObject<Item> COOKED_SAUSAGE = HELPER.createItem("cooked_sausage", ()->new Item(new Item.Properties().food(Foods.COOKED_SAUSAGE).group(ItemGroup.FOOD)));
 
@@ -43,6 +48,10 @@ public class GourmandiseItems {
         public static final Food CHEESE = (new Food.Builder()).hunger(2).saturation(0.15F).build();
         public static final Food CHEESE_SAUCE = (new Food.Builder()).hunger(3).saturation(0.2F).build();
         public static final Food CHEESE_BREAD = (new Food.Builder()).hunger(7).saturation(0.7F).build();
+
+        // pineapple stuff is literally just a copy of grape stuff for now lmao
+        public static final Food PINEAPPLE_SLICES = (new Food.Builder()).hunger(4).saturation(0.3F).build();
+        public static final Food PINEAPPLE_PUNCH = (new Food.Builder()).hunger(2).saturation(0.1F).build();
 
         public static final Food SAUSAGE = (new Food.Builder()).hunger(2).saturation(0.1F).meat().build();
         public static final Food COOKED_SAUSAGE = (new Food.Builder()).hunger(5).saturation(0.3F).meat().build();

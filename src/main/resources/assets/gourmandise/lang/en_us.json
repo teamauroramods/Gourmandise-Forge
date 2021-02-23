@@ -49,22 +49,36 @@
   "item.gourmandise.cheese_bread": "Cheese Bread",
 
 
-  "_comment2": "Sausage",
+  "_comment2": "Pineapples",
+  "item.gourmandise.pineapple_leaves": "Pineapple Leaves",
+  "item.gourmandise.pineapple": "Pineapple",
+  "item.gourmandise.pineapple_slices": "Pineapple Slices",
+  "item.gourmandise.pineapple_punch": "Pineapple Punch",
+
+  "block.gourmandise.pineapple_leaves_block": "Pineapple Leaves Block",
+  "block.gourmandise.pineapple_block": "Pineapple Block",
+  "block.gourmandise.pineapple_tiles": "Pineapple Tiles",
+  "block.gourmandise.pineapple": "Pineapple",
+
+
+  "_comment3": "Sausage",
   "item.gourmandise.sausage": "Raw Sausage",
   "item.gourmandise.cooked_sausage": "Cooked Sausage",
 
 
-  "_comment3": "Shrimp",
+  "_comment4": "Shrimp",
   "item.gourmandise.shrimp": "Raw Shrimp",
   "item.gourmandise.cooked_shrimp": "Cooked Shrimp",
 
-  "_comment4": "Combo Meals",
+
+  "_comment5": "Combo Meals",
   "item.gourmandise.shrimp_on_a_stick": "Shrimp on a Stick",
   "item.gourmandise.cheese_sausage": "Cheese Sausage",
   "item.gourmandise.fruit_salad": "Fruit Salad",
   "item.gourmandise.potato_chip": "Potato Chip",
 
-  "_comment5": "Golden Wheat",
+
+  "_comment6": "Golden Wheat",
   "item.gourmandise.golden_wheat": "Golden Wheat",
   "item.gourmandise.golden_bread": "Golden Bread",
   "block.gourmandise.golden_hay_block": "Golden Hay Bale"
