@@ -1,0 +1,25 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "Desktop:gourmandise/block/pizza_top",
+		"1": "Desktop:gourmandise/block/pizza_side",
+		"2": "Desktop:gourmandise/block/pizza_inner",
+		"3": "Desktop:gourmandise/block/pizza_bottom",
+		"particle": "Desktop:gourmandise/block/pizza_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [4, 4, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [12, 12, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 12, 8, 16], "texture": "#2"},
+				"south": {"uv": [0, 12, 4, 16], "texture": "#1"},
+				"west": {"uv": [8, 12, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 8, 4, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 4, 8], "texture": "#3"}
+			}
+		}
+	]
+}
