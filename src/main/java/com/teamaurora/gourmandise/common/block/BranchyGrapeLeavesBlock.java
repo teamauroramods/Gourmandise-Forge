@@ -28,7 +28,7 @@ public class BranchyGrapeLeavesBlock extends AbnormalsLeavesBlock implements IGr
 
     @Override
     public void grow(ServerWorld worldIn, Random rand, BlockPos pos, BlockState state) {
-        worldIn.setBlockState(pos.down(), GourmandiseBlocks.GRAPE_VINE.get().getDefaultState());
+        worldIn.setBlockState(pos.down(), GourmandiseBlocks.GRAPE_BRANCH.get().getDefaultState());
     }
 
     @Override
@@ -40,7 +40,7 @@ public class BranchyGrapeLeavesBlock extends AbnormalsLeavesBlock implements IGr
     public void randomTick(BlockState state, ServerWorld worldIn, BlockPos pos, Random random) {
         if (worldIn.rand.nextInt(14) == 0 && worldIn.isAreaLoaded(pos, 4)) { // Forge: check area to prevent loading unloaded chunks
             if (worldIn.isAirBlock(pos.down())) {
-                worldIn.setBlockState(pos.down(), GourmandiseBlocks.GRAPE_VINE.get().getDefaultState());
+                worldIn.setBlockState(pos.down(), GourmandiseBlocks.GRAPE_BRANCH.get().getDefaultState());
             }
         }
     }

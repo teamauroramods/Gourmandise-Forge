@@ -22,7 +22,7 @@ public class ClientRegister {
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
-            registerBlockColors();
+            //registerBlockColors();
             setupRenderLayer();
         });
     }
@@ -35,7 +35,7 @@ public class ClientRegister {
         RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPE_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPE_TRAPDOOR.get(), RenderType.getCutout());
 
-        RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPE_VINE.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPE_BRANCH.get(), RenderType.getCutout());
     }
 
     public static void registerBlockColors() {

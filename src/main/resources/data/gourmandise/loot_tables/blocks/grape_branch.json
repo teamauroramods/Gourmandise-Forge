@@ -35,7 +35,7 @@
                   ]
                 }
               ],
-              "name": "gourmandise:grape_vine"
+              "name": "gourmandise:grape_branch"
             },
             {
               "type": "minecraft:item",
@@ -43,7 +43,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "gourmandise:grape_vine",
+                  "block": "gourmandise:grape_branch",
                   "properties": {
                     "age": "3"
                   }

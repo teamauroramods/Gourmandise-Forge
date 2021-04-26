@@ -1,0 +1,39 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "gourmandise:block/grape_branch_3",
+    "end": "gourmandise:block/grape_branch_3_end",
+    "vine": "gourmandise:block/grape_branch_3"
+  },
+  "elements": [
+    {   "from": [ 2, 0, 2 ],
+      "to": [ 14, 12, 14 ],
+      "faces": {
+        "down":  { "texture": "#end", "uv": [2, 2, 14, 14] },
+        "up":    { "texture": "#end", "uv": [2, 2, 14, 14] },
+        "north": { "texture": "#vine", "uv": [2, 4, 14, 16] },
+        "south": { "texture": "#vine", "uv": [2, 4, 14, 16] },
+        "west":  { "texture": "#vine", "uv": [2, 4, 14, 16] },
+        "east":  { "texture": "#vine", "uv": [2, 4, 14, 16] }
+      }
+    },
+    {   "from": [ 0.8, 12, 8 ],
+      "to": [ 15.2, 16, 8 ],
+      "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+      "shade": false,
+      "faces": {
+        "north": { "uv": [ 0, 0, 16, 4 ], "texture": "#vine" },
+        "south": { "uv": [ 0, 0, 16, 4 ], "texture": "#vine" }
+      }
+    },
+    {   "from": [ 8, 12, 0.8 ],
+      "to": [ 8, 16, 15.2 ],
+      "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45, "rescale": true },
+      "shade": false,
+      "faces": {
+        "west": { "uv": [ 0, 0, 16, 4 ], "texture": "#vine" },
+        "east": { "uv": [ 0, 0, 16, 4 ], "texture": "#vine" }
+      }
+    }
+  ]
+}

@@ -89,7 +89,7 @@ public class GrapeFeature extends Feature<BaseTreeFeatureConfig> {
                 TreeUtil.setForcedState(worldIn, leaf, GourmandiseBlocks.BRANCHY_GRAPE_LEAVES.get().getDefaultState());
             }
             if (TreeUtil.isAirOrLeaves(worldIn, leaf.down()) && rand.nextInt(3) != 0 && variant != 0) {
-                TreeUtil.setForcedState(worldIn, leaf.down(), GourmandiseBlocks.GRAPE_VINE.get().getDefaultState().with(GrapesBlock.AGE, rand.nextInt(4)));
+                TreeUtil.setForcedState(worldIn, leaf.down(), GourmandiseBlocks.GRAPE_BRANCH.get().getDefaultState().with(GrapesBlock.AGE, rand.nextInt(4)));
             }
         }
 
