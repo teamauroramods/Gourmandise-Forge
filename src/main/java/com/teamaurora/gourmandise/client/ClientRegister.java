@@ -36,6 +36,8 @@ public class ClientRegister {
         RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPE_TRAPDOOR.get(), RenderType.getCutout());
 
         RenderTypeLookup.setRenderLayer(GourmandiseBlocks.GRAPE_BRANCH.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(GourmandiseBlocks.PINEAPPLE.get(), RenderType.getCutout());
     }
 
     public static void registerBlockColors() {

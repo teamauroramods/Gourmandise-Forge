@@ -1,10 +1,11 @@
 {
+	"ambientocclusion": false,
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "block/pineapple_stage_2",
-		"3": "block/pineapple_stage_1",
-		"4": "block/pineapple_stage_3",
-		"particle": "block/pineapple_stage_1"
+		"2": "gourmandise:block/pineapple_stage_2",
+		"3": "gourmandise:block/pineapple_stage_1",
+		"4": "gourmandise:block/pineapple_stage_3",
+		"particle": "gourmandise:block/pineapple_stage_1"
 	},
 	"elements": [
 		{

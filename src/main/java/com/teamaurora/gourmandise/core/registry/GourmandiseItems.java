@@ -22,7 +22,7 @@ public class GourmandiseItems {
     public static final RegistryObject<Item> CHEESE_BREAD = HELPER.createItem("cheese_bread", ()->new Item(new Item.Properties().food(Foods.CHEESE_BREAD).group(ItemGroup.FOOD)));
 
     public static final RegistryObject<Item> PINEAPPLE_LEAVES = HELPER.createItem("pineapple_leaves", ()->new Item(new Item.Properties().group(ItemGroup.MISC)));
-    public static final RegistryObject<Item> PINEAPPLE = HELPER.createItem("pineapple", ()->new Item(new Item.Properties().group(ItemGroup.MISC)));
+    public static final RegistryObject<Item> PINEAPPLE = HELPER.createItem("pineapple", ()->new BlockNamedItem(GourmandiseBlocks.PINEAPPLE.get(), new Item.Properties().group(ItemGroup.MISC)));
     public static final RegistryObject<Item> PINEAPPLE_SLICES = HELPER.createItem("pineapple_slices", ()->new Item(new Item.Properties().food(Foods.PINEAPPLE_SLICES).group(ItemGroup.FOOD)));
     public static final RegistryObject<Item> PINEAPPLE_PUNCH = HELPER.createItem("pineapple_punch", ()->new DrinkItem(new Item.Properties().containerItem(Items.GLASS_BOTTLE).food(Foods.PINEAPPLE_PUNCH).maxStackSize(16).group(ItemGroup.FOOD)));
 

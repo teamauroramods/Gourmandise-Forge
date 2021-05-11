@@ -4,7 +4,7 @@ import com.minecraftabnormals.abnormals_core.core.util.DataUtil;
 import com.teamaurora.gourmandise.core.registry.GourmandiseBlocks;
 import com.teamaurora.gourmandise.core.registry.GourmandiseItems;
 
-public class GourmandiseCompat {
+public class GourmandiseData {
     public static void registerCompostables() {
         DataUtil.registerCompostable(GourmandiseBlocks.GRAPE_LEAVES.get(), 0.3F);
         DataUtil.registerCompostable(GourmandiseBlocks.BRANCHY_GRAPE_LEAVES.get(), 0.3F);
