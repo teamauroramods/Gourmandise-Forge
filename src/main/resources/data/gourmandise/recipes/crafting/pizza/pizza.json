@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "CCC",
+    "BBB"
+  ],
+  "key": {
+    "#": {
+      "item": "gourmandise:cooked_sausage"
+    },
+    "X": {
+      "item": "gourmandise:paprika"
+    },
+    "C": {
+      "item": "gourmandise:cheese"
+    },
+    "B": {
+      "item": "gourmandise:sliced_bread"
+    }
+  },
+  "result": {
+    "item": "gourmandise:pizza"
+  }
+}

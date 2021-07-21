@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "gourmandise:cheese"
+    },
+    "X": {
+      "item": "gourmandise:cooked_sausage"
+    }
+  },
+  "result": {
+    "item": "gourmandise:cheese_sausage"
+  }
+}

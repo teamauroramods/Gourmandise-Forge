@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    " B "
+  ],
+  "key": {
+    "#": {
+      "item": "gourmandise:pineapple_slices"
+    },
+    "X": {
+      "item": "gourmandise:grapes"
+    },
+    "B": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "gourmandise:pineapple_punch"
+  }
+}

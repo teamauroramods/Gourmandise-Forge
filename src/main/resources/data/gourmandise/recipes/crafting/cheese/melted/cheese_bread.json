@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "X"
+  ],
+  "key": {
+    "#": {
+      "item": "gourmandise:melted_cheese"
+    },
+    "X": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "gourmandise:cheese_bread"
+  }
+}

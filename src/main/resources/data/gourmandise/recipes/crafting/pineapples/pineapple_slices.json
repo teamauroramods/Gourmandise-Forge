@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gourmandise:pineapple"
+    }
+  ],
+  "result": {
+    "item": "gourmandise:pineapple_slices",
+    "count": 4
+  }
+}

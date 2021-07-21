@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gourmandise:pineapple_slices"
+    },
+    {
+      "item": "gourmandise:pineapple_slices"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "gourmandise:grapes"
+    },
+    {
+      "item": "gourmandise:grapes"
+    }
+  ],
+  "result": {
+    "item": "gourmandise:gourmand_salad"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "XSX",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "gourmandise:paprika"
+    },
+    "X": {
+      "item": "gourmandise:sliced_bread"
+    },
+    "S": {
+      "item": "gourmandise:cooked_sausage"
+    }
+  },
+  "result": {
+    "item": "gourmandise:hot_dog"
+  }
+}

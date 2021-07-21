@@ -32,11 +32,11 @@
   "block.gourmandise.grape_branch": "Grape Branch",
   "item.gourmandise.grape_bunch": "Grape Bunch",
   "item.gourmandise.grapes": "Grapes",
+  "item.gourmandise.dried_grapes": "Dried Grapes",
   "item.gourmandise.grape_juice": "Grape Juice",
 
 
   "_comment1": "Cheese",
-  "item.gourmandise.cheese": "Cheese",
   "block.gourmandise.cheese_block": "Cheese Block",
   "block.gourmandise.cheese_bricks": "Cheese Bricks",
   "block.gourmandise.cheese_brick_slab": "Cheese Brick Slab",
@@ -45,8 +45,20 @@
   "block.gourmandise.cheese_brick_wall": "Cheese Brick Wall",
   "block.gourmandise.chiseled_cheese_bricks": "Chiseled Cheese Bricks",
 
+  "item.gourmandise.cheese": "Cheese",
+  "item.gourmandise.cheese_wheel": "Cheese Wheel",
   "item.gourmandise.cheese_sauce": "Cheese Sauce",
   "item.gourmandise.cheese_bread": "Cheese Bread",
+
+  "item.gourmandise.blue_cheese": "Blue Cheese",
+  "item.gourmandise.blue_cheese_wheel": "Blue Cheese Wheel",
+
+  "item.gourmandise.soft_cheese": "Soft Cheese",
+  "item.gourmandise.soft_cheese_wheel": "Soft Cheese Wheel",
+
+  "item.gourmandise.melted_cheese": "Melted Cheese",
+  "item.gourmandise.melted_cheese_bucket": "Melted Cheese Bucket",
+  "item.gourmandise.grilled_cheese": "Grilled Cheese",
 
 
   "_comment2": "Pineapples",
@@ -64,6 +76,7 @@
   "_comment3": "Sausage",
   "item.gourmandise.sausage": "Raw Sausage",
   "item.gourmandise.cooked_sausage": "Cooked Sausage",
+  "item.gourmandise.hot_dog": "Hot Dog",
 
 
   "_comment4": "Shrimp",
@@ -74,12 +87,32 @@
   "_comment5": "Combo Meals",
   "item.gourmandise.shrimp_on_a_stick": "Shrimp on a Stick",
   "item.gourmandise.cheese_sausage": "Cheese Sausage",
-  "item.gourmandise.fruit_salad": "Fruit Salad",
-  "item.gourmandise.potato_chip": "Potato Chip",
+  "item.gourmandise.gourmand_salad": "Gourmand Salad",
+
+  "item.gourmandise.potato_chips": "Potato Chips",
+  "item.gourmandise.spicy_chips": "Spicy Chips",
+
+
+  "_comment7": "Pizza",
+  "item.gourmandise.sliced_bread": "Sliced Bread",
+  "item.gourmandise.pizza": "Pizza",
+  "item.gourmandise.pizza_slice": "Pizza Slice",
 
 
   "_comment6": "Golden Wheat",
   "item.gourmandise.golden_wheat": "Golden Wheat",
   "item.gourmandise.golden_bread": "Golden Bread",
-  "block.gourmandise.golden_hay_block": "Golden Hay Bale"
+  "block.gourmandise.golden_hay_block": "Golden Hay Bale",
+
+
+  "_comment8": "Peppers",
+  "item.gourmandise.pepper_seeds": "Pepper Seeds",
+  "item.gourmandise.pepper_vine": "Pepper Vine",
+  "item.gourmandise.pepper_bunch": "Pepper Bunch",
+  "item.gourmandise.pepper": "Pepper",
+  "item.gourmandise.paprika": "Paprika",
+
+  "item.gourmandise.spicy_chicken": "Spicy Chicken",
+  "item.gourmandise.spicy_fish": "Spicy Fish",
+  "item.gourmandise.spicy_fish_soup": "Spicy Fish Soup"
 }

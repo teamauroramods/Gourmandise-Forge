@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gourmandise:blue_cheese_wheel"
+    }
+  ],
+  "result": {
+    "item": "gourmandise:blue_cheese",
+    "count": 9
+  }
+}

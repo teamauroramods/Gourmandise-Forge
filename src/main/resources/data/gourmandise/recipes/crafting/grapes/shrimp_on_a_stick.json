@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " G ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "gourmandise:cooked_shrimp"
+    },
+    "G": {
+      "item": "gourmandise:grapes"
+    }
+  },
+  "result": {
+    "item": "gourmandise:shrimp_on_a_stick"
+  }
+}

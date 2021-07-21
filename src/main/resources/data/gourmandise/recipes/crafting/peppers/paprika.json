@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    " # ",
+    "  #"
+  ],
+  "key": {
+    "#": {
+      "item": "gourmandise:pepper"
+    }
+  },
+  "result": {
+    "item": "gourmandise:paprika",
+    "count": 4
+  }
+}

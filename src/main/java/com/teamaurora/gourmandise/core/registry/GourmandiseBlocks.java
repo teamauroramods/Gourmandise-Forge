@@ -76,7 +76,7 @@ public class GourmandiseBlocks {
     public static final RegistryObject<Block> PINEAPPLE_LEAVES_BLOCK = HELPER.createBlock("pineapple_leaves_block", ()->new Block(AbstractBlock.Properties.from(Blocks.DRIED_KELP_BLOCK)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> PINEAPPLE_BLOCK = HELPER.createBlock("pineapple_block", ()->new Block(AbstractBlock.Properties.from(Blocks.DRIED_KELP_BLOCK)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> PINEAPPLE_TILES = HELPER.createBlock("pineapple_tiles", ()->new Block(AbstractBlock.Properties.from(Blocks.DRIED_KELP_BLOCK)), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> PINEAPPLE = HELPER.createBlockNoItem("pineapple", ()->new PineappleBlock(AbstractBlock.Properties.create(Material.PLANTS).notSolid().tickRandomly().zeroHardnessAndResistance().doesNotBlockMovement().sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PINEAPPLE = HELPER.createBlockNoItem("pineapple", ()->new PineappleBlock(AbstractBlock.Properties.create(Material.PLANTS).notSolid().tickRandomly().zeroHardnessAndResistance().sound(SoundType.WOOD)));
 
     static class Properties {
         public static final AbstractBlock.Properties CHEESE_BRICKS = AbstractBlock.Properties.create(Material.WOOD, MaterialColor.YELLOW).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD);

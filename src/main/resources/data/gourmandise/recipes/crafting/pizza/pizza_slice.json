@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gourmandise:pizza"
+    }
+  ],
+  "result": {
+    "item": "gourmandise:pizza_slice",
+    "count": 9
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "gourmandise:paprika"
+    },
+    "X": {
+      "item": "minecraft:cooked_chicken"
+    }
+  },
+  "result": {
+    "item": "gourmandise:spicy_chicken"
+  }
+}

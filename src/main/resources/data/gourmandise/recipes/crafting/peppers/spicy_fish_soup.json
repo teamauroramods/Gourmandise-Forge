@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gourmandise:spicy_fish"
+    },
+    {
+      "item": "gourmandise:spicy_fish"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "gourmandise:pepper_vine"
+    }
+  ],
+  "result": {
+    "item": "gourmandise:spicy_fish_soup"
+  }
+}
