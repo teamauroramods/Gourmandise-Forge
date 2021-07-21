@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "gourmandise:block/soft_cheese_tiles",
+    "top": "gourmandise:block/soft_cheese_tiles",
+    "side": "gourmandise:block/soft_cheese_tiles"
+  }
+}

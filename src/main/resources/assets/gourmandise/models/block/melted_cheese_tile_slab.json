@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "gourmandise:block/melted_cheese_tiles",
+    "top": "gourmandise:block/melted_cheese_tiles",
+    "side": "gourmandise:block/melted_cheese_tiles"
+  }
+}

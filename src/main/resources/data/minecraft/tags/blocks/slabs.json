@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "gourmandise:cheese_brick_slab"
+    "gourmandise:cheese_slab",
+    "gourmandise:blue_cheese_slab",
+    "gourmandise:soft_cheese_slab",
+    "gourmandise:melted_cheese_slab",
+    "gourmandise:cheese_tile_slab",
+    "gourmandise:blue_cheese_tile_slab",
+    "gourmandise:soft_cheese_tile_slab",
+    "gourmandise:melted_cheese_tile_slab"
   ]
 }

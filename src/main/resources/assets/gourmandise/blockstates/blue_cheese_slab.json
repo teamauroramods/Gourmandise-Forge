@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gourmandise:block/blue_cheese_slab"
+    },
+    "type=top": {
+      "model": "gourmandise:block/blue_cheese_slab_top"
+    },
+    "type=double": {
+      "model": "gourmandise:block/blue_cheese_block"
+    }
+  }
+}

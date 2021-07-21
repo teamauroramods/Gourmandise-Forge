@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "gourmandise:cheese_brick_stairs"
+    "gourmandise:cheese_stairs",
+    "gourmandise:blue_cheese_stairs",
+    "gourmandise:soft_cheese_stairs",
+    "gourmandise:melted_cheese_stairs",
+    "gourmandise:cheese_tile_stairs",
+    "gourmandise:blue_cheese_tile_stairs",
+    "gourmandise:soft_cheese_tile_stairs",
+    "gourmandise:melted_cheese_tile_stairs"
   ]
 }

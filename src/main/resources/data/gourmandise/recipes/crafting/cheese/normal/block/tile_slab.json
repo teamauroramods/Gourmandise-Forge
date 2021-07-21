@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "gourmandise:cheese_tiles"
+    }
+  },
+  "result": {
+    "item": "gourmandise:cheese_tile_slab",
+    "count": 6
+  }
+}

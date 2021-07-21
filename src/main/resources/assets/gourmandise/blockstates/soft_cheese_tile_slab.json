@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gourmandise:block/soft_cheese_tile_slab"
+    },
+    "type=top": {
+      "model": "gourmandise:block/soft_cheese_tile_slab_top"
+    },
+    "type=double": {
+      "model": "gourmandise:block/soft_cheese_tiles"
+    }
+  }
+}

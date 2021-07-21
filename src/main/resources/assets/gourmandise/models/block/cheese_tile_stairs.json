@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "gourmandise:block/cheese_tiles",
+    "top": "gourmandise:block/cheese_tiles",
+    "side": "gourmandise:block/cheese_tiles"
+  }
+}

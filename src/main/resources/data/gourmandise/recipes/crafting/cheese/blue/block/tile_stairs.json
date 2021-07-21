@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "gourmandise:blue_cheese_tiles"
+    }
+  },
+  "result": {
+    "item": "gourmandise:blue_cheese_tile_stairs",
+    "count": 4
+  }
+}

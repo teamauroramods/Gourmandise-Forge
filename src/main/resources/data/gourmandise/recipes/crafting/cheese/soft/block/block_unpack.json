@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gourmandise:soft_cheese_block"
+    }
+  ],
+  "result": {
+    "item": "gourmandise:soft_cheese",
+    "count": 9
+  }
+}

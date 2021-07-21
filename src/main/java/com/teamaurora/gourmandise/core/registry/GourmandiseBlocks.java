@@ -61,13 +61,45 @@ public class GourmandiseBlocks {
     public static final RegistryObject<Block> GRAPE_BRANCH = HELPER.createBlock("grape_branch", ()->new GrapesBlock(AbstractBlock.Properties.create(Material.PLANTS).tickRandomly().sound(SoundType.CROP)), ItemGroup.DECORATIONS);
 
     // cheese
-    public static final RegistryObject<Block> CHEESE_BLOCK = HELPER.createBlock("cheese_block", ()->new Block(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> CHEESE_BRICKS = HELPER.createBlock("cheese_bricks", ()->new Block(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> CHEESE_BRICK_SLAB = HELPER.createBlock("cheese_brick_slab", ()->new SlabBlock(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> CHEESE_BRICK_STAIRS = HELPER.createBlock("cheese_brick_stairs", ()->new AbnormalsStairsBlock(CHEESE_BRICKS.get().getDefaultState(), Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> CHEESE_BRICK_WALL = HELPER.createBlock("cheese_brick_wall", ()->new WallBlock(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> CHEESE_BRICK_VERTICAL_SLAB = HELPER.createCompatBlock("quark","cheese_brick_vertical_slab", ()->new VerticalSlabBlock(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> CHISELED_CHEESE_BRICKS = HELPER.createBlock("chiseled_cheese_bricks", ()->new Block(Properties.CHEESE_BRICKS), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_BLOCK = HELPER.createBlock("cheese_block", ()->new Block(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_STAIRS = HELPER.createBlock("cheese_stairs", ()->new AbnormalsStairsBlock(CHEESE_BLOCK.get().getDefaultState(), Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_SLAB = HELPER.createBlock("cheese_slab", ()->new SlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "cheese_vertical_slab", ()->new VerticalSlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHISELED_CHEESE_BLOCK = HELPER.createBlock("chiseled_cheese_block", ()->new Block(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_TILES = HELPER.createBlock("cheese_tiles", ()->new Block(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_TILE_STAIRS = HELPER.createBlock("cheese_tile_stairs", ()->new AbnormalsStairsBlock(CHEESE_TILES.get().getDefaultState(), Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_TILE_SLAB = HELPER.createBlock("cheese_tile_slab", ()->new SlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHEESE_TILE_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "cheese_tile_vertical_slab", ()->new VerticalSlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+
+    public static final RegistryObject<Block> BLUE_CHEESE_BLOCK = HELPER.createBlock("blue_cheese_block", ()->new Block(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BLUE_CHEESE_STAIRS = HELPER.createBlock("blue_cheese_stairs", ()->new AbnormalsStairsBlock(BLUE_CHEESE_BLOCK.get().getDefaultState(), Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BLUE_CHEESE_SLAB = HELPER.createBlock("blue_cheese_slab", ()->new SlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BLUE_CHEESE_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "blue_cheese_vertical_slab", ()->new VerticalSlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHISELED_BLUE_CHEESE_BLOCK = HELPER.createBlock("chiseled_blue_cheese_block", ()->new Block(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BLUE_CHEESE_TILES = HELPER.createBlock("blue_cheese_tiles", ()->new Block(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BLUE_CHEESE_TILE_STAIRS = HELPER.createBlock("blue_cheese_tile_stairs", ()->new AbnormalsStairsBlock(BLUE_CHEESE_TILES.get().getDefaultState(), Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BLUE_CHEESE_TILE_SLAB = HELPER.createBlock("blue_cheese_tile_slab", ()->new SlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BLUE_CHEESE_TILE_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "blue_cheese_tile_vertical_slab", ()->new VerticalSlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+
+    public static final RegistryObject<Block> SOFT_CHEESE_BLOCK = HELPER.createBlock("soft_cheese_block", ()->new Block(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> SOFT_CHEESE_STAIRS = HELPER.createBlock("soft_cheese_stairs", ()->new AbnormalsStairsBlock(SOFT_CHEESE_BLOCK.get().getDefaultState(), Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> SOFT_CHEESE_SLAB = HELPER.createBlock("soft_cheese_slab", ()->new SlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> SOFT_CHEESE_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "soft_cheese_vertical_slab", ()->new VerticalSlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHISELED_SOFT_CHEESE_BLOCK = HELPER.createBlock("chiseled_soft_cheese_block", ()->new Block(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> SOFT_CHEESE_TILES = HELPER.createBlock("soft_cheese_tiles", ()->new Block(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> SOFT_CHEESE_TILE_STAIRS = HELPER.createBlock("soft_cheese_tile_stairs", ()->new AbnormalsStairsBlock(SOFT_CHEESE_TILES.get().getDefaultState(), Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> SOFT_CHEESE_TILE_SLAB = HELPER.createBlock("soft_cheese_tile_slab", ()->new SlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> SOFT_CHEESE_TILE_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "soft_cheese_tile_vertical_slab", ()->new VerticalSlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+
+    public static final RegistryObject<Block> MELTED_CHEESE_BLOCK = HELPER.createBlock("melted_cheese_block", ()->new Block(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MELTED_CHEESE_STAIRS = HELPER.createBlock("melted_cheese_stairs", ()->new AbnormalsStairsBlock(MELTED_CHEESE_BLOCK.get().getDefaultState(), Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MELTED_CHEESE_SLAB = HELPER.createBlock("melted_cheese_slab", ()->new SlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MELTED_CHEESE_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "melted_cheese_vertical_slab", ()->new VerticalSlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHISELED_MELTED_CHEESE_BLOCK = HELPER.createBlock("chiseled_melted_cheese_block", ()->new Block(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MELTED_CHEESE_TILES = HELPER.createBlock("melted_cheese_tiles", ()->new Block(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MELTED_CHEESE_TILE_STAIRS = HELPER.createBlock("melted_cheese_tile_stairs", ()->new AbnormalsStairsBlock(MELTED_CHEESE_TILES.get().getDefaultState(), Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MELTED_CHEESE_TILE_SLAB = HELPER.createBlock("melted_cheese_tile_slab", ()->new SlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MELTED_CHEESE_TILE_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "melted_cheese_tile_vertical_slab", ()->new VerticalSlabBlock(Properties.CHEESE), ItemGroup.BUILDING_BLOCKS);
 
     // golden wheat
     public static final RegistryObject<Block> GOLDEN_HAY_BLOCK = HELPER.createBlock("golden_hay_block", ()->new HayBlock(AbstractBlock.Properties.from(Blocks.HAY_BLOCK).harvestTool(ToolType.HOE)), ItemGroup.BUILDING_BLOCKS);
@@ -79,6 +111,6 @@ public class GourmandiseBlocks {
     public static final RegistryObject<Block> PINEAPPLE = HELPER.createBlockNoItem("pineapple", ()->new PineappleBlock(AbstractBlock.Properties.create(Material.PLANTS).notSolid().tickRandomly().zeroHardnessAndResistance().sound(SoundType.WOOD)));
 
     static class Properties {
-        public static final AbstractBlock.Properties CHEESE_BRICKS = AbstractBlock.Properties.create(Material.WOOD, MaterialColor.YELLOW).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD);
+        public static final AbstractBlock.Properties CHEESE = AbstractBlock.Properties.create(Material.WOOD, MaterialColor.YELLOW).hardnessAndResistance(2.0F, 3.0F).sound(SoundType.WOOD);
     }
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "abnormals_core:block/vertical_slab",
+  "textures": {
+    "side": "gourmandise:block/soft_cheese_tiles",
+    "top": "gourmandise:block/soft_cheese_tiles",
+    "bottom": "gourmandise:block/soft_cheese_tiles"
+  }
+}
